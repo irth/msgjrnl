@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             {route.name === "list" ? <ConversationList /> : false}
             {route.name === "conversation" ? (
-                <Conversation />
+                <Conversation title="test conversation" />
             ) : (
                     false
                 )}
